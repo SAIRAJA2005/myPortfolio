@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saride Sai Raja - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <h2 class="logo">SSR<span class="logo-dot">.</span></h2>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <i class="bi bi-sun-fill" id="theme-icon"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="greeting">👋 Hello, I'm</span>
+        <h1>Sai Raja Saride</h1>
+        <div class="typewriter">
+          <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+        </div>
+        <p>Computer Science graduate with expertise in Salesforce Administration, Full-stack Development, and Problem Solving.</p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#projects" class="btn btn-secondary">View Projects</a>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left">
+        <div class="image-wrapper">
+          <img src="My_PicO.jpg" alt="Profile" class="profile-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section-padding">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p>Hey there! 👋Hey! I'm a Computer Science grad passionate about building smooth, efficient tech. 
+            I specialize in Salesforce, C++, Java, Python, and front-end tech like HTML, CSS, and JavaScript. 
+            I’ve solved 350+ LeetCode problems and worked on projects that improved performance and user engagement. 🚀
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section-padding">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+          <i class="bi bi-code-slash skill-icon"></i>
+          <h3>Programming Languages</h3>
+          <p>C++, C, Java, Python, SQL, Apex</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+          <i class="bi bi-window skill-icon"></i>
+          <h3>Web Technologies</h3>
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+          <i class="bi bi-tools skill-icon"></i>
+          <h3>Tools</h3>
+          <p>VS Code, Sublime Text, Notepad++, MS Office, MS PowerPoint</p>
+        </div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+          <i class="bi bi-cloud skill-icon"></i>
+          <h3>Technologies</h3>
+          <p>Salesforce <br> Web Development</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section-padding">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image-container">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop" alt="Portfolio" class="project-image">
+            <div class="project-overlay">
+              <a href="https://sairajasaride.netlify.app/" class="project-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Portfolio Using Front End</h3>
+            <p>I built this portfolio using front-end technologies like HTML, CSS, and JavaScript to showcase my projects, skills, and passion for creating clean, efficient tech solutions.</p>
+          </div>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image-container">
+            <img src="https://images.unsplash.com/photo-1498084393753-b411b2d26b34?w=500&h=300&fit=crop" alt="Energy Management" class="project-image">
+            <div class="project-overlay">
+              <a href="#" class="project-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Smart Energy Building Management System</h3>
+            <p>Monitors and manages energy consumption across 10+ buildings, automating billing notifications and reducing manual effort by 30%.</p>
+          </div>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-image-container">
+            <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500&h=300&fit=crop" alt="E-commerce" class="project-image">
+            <div class="project-overlay">
+              <a href="https://ssrbazar.netlify.app/" class="project-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>SSR-Bazaar</h3>
+            <p>E-commerce platform for electronics and groceries with responsive layout and real-time content updates.</p>
+          </div>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image-container">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop" alt="Portfolio" class="project-image">
+              <div class="project-overlay">
+                <a href="https://rhub-dev-ed.develop.my.site.com/" class="project-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Portfolio Using LWC</h3>
+              <p>Dynamic portfolio application using Salesforce LWC, reducing manual work by 80% and delivering a responsive, interactive interface.</p>
+            </div>
+          </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-image-container">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=500&h=300&fit=crop" alt="Elements Table" class="project-image">
+            <div class="project-overlay">
+              <a href="#" class="project-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Elements Table</h3>
+            <p>Educational webpage on chemical elements with interactive visuals for enhanced learning.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section-padding">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content">
+            <span class="timeline-date">2024</span>
+            <h3>C Intern - Technical Hub</h3>
+            <p>Guided 200+ students in mastering C programming, achieving 40% enhancement in problem-solving skills.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-content">
+            <span class="timeline-date">2024</span>
+            <h3>Salesforce Admin Intern - Technical Hub</h3>
+            <p>Managed 5+ concurrent projects, streamlined task management, and improved data accuracy.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content">
+            <span class="timeline-date">2023</span>
+            <h3>Web Development Intern - Codesoft</h3>
+            <p>Developed NASA-focused website, improving user engagement by 30% through interactive elements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-padding">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-info">
+        <div class="contact-item" data-aos="zoom-in" data-aos-delay="100">
+          <i class="bi bi-envelope contact-icon"></i>
+          <h3>Email</h3>
+          <p>sairajasaride113@gmail.com</p>
+        </div>
+        <div class="contact-item" data-aos="zoom-in" data-aos-delay="200">
+          <i class="bi bi-phone contact-icon"></i>
+          <h3>Phone</h3>
+          <p>+91 9059687192</p>
+        </div>
+        <div class="contact-item" data-aos="zoom-in" data-aos-delay="300">
+          <i class="bi bi-person-badge contact-icon"></i>
+          <h3>Social</h3>
+          <div class="social-links">
+            <a href="https://github.com/SAIRAJA2005" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/in/sairajasaride" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
