@@ -1,1 +1,3 @@
 # myPortfolio
+Welcome to my portfolio..
+If you want to know about me.. lets check out there.....
